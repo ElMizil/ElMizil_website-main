@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
     <meta http-equiv='pragma' content='no-cache'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
@@ -17,7 +17,7 @@
 <body>
     <nav>
         <div class="nav-logo">
-            <a href="robotics.html" title="Switch to Robotics Engineer page">
+            <a href="index.html" title="Switch to Software Developer page">
                 <img src="images/logo.png">
             </a>
         </div>
@@ -34,14 +34,13 @@
         <div class="content">
             <span class="blur"></span>
             <span class="blur"></span>
-            <h4>SOFTWARE DEVELOPER</h4>
+            <h4>ROBOTICS ENGINEER</h4>
             <H1><span>Hi, I'm </span>Mizael Beltran</H1>
             <p>
-                Highly skilled software developer, with strong knowledge in
-                several programming languages, experience in software
-                development, database management and web development.
-                Strong problem-solving skills and ability to work effectively in a
-                team-based environment
+                Robotics engineer with hands-on experience designing, building, and
+                programming mechatronic systems. Skilled in embedded systems, control
+                theory, and computer vision, with a strong drive to bring intelligent
+                machines from concept to working prototype.
             </p>
         </div>
         <div class="image">
@@ -53,59 +52,53 @@
         <h2 class="header">Skills</h2>
         <div class="features">
             <div class="card">
+                <span><i class="fas fa-robot"></i></span>
+                <h4>ROS / ROS2</h4>
+                <p>
+                    Experience building and integrating nodes for perception, navigation, and control using the Robot Operating System, enabling modular and reusable robotics software.
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="fas fa-microchip"></i></span>
+                <h4>Embedded Systems</h4>
+                <p>
+                    Comfortable programming microcontrollers such as Arduino and STM32, interfacing sensors and actuators, and writing firmware close to the hardware.
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="fas fa-sliders-h"></i></span>
+                <h4>Control Systems</h4>
+                <p>
+                    Knowledge of PID and state-space control techniques applied to motor control, balancing systems, and motion stabilization in real-time applications.
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="fas fa-eye"></i></span>
+                <h4>Computer Vision</h4>
+                <p>
+                    Using OpenCV and related tools to give robots the ability to perceive their environment, detect objects, and make navigation decisions.
+                </p>
+            </div>
+            <div class="card">
                 <span><i class="fab fa-python"></i></span>
                 <h4>Python</h4>
                 <p>
-                    Python expert adept at leveraging the language's versatility to craft efficient solutions from web development to data science. I'm passionate about refining code, solving complex challenges, and contributing to the Python community.
+                    Applying Python for robotics scripting, simulation, and data processing, from quick prototypes to integration with ROS pipelines.
                 </p>
             </div>
             <div class="card">
                 <span><i class="fas fa-code"></i></span>
                 <h4>C++</h4>
                 <p>
-                    Advance in various domains, from systems programming to game development, where I design robust applications and optimize performance. I thrive on crafting efficient, scalable code and enjoy diving into intricate challenges. 
+                    Writing performance-critical robotics and embedded code in C++, where low latency and efficient resource use matter most.
                 </p>
-                
             </div>
             <div class="card">
-                <span><i class="fas fa-window-maximize"></i></span>
-                <h4>Web Development</h4>
+                <span><i class="fas fa-cogs"></i></span>
+                <h4>Mechatronics</h4>
                 <p>
-                    Great knowledge front-end and back-end technologies, allowing me to craft responsive, visually appealing websites and powerful, scalable applications. I excel in leveraging HTML, CSS, JavaScript.
+                    Combining mechanical design, electronics, and software to build complete robotic systems, from initial concept through working prototype.
                 </p>
-                
-            </div>
-            <div class="card">
-                <span><i class="fas fa-database"></i></span>
-                <h4>Data Analysis</h4>
-                <p>
-                    I navigate complex datasets to extract valuable insights and drive informed decisions. My expertise lies in using Python, R, and SQL, among other tools, to uncover patterns, trends, and actionable findings that empower businesses.
-                </p>
-                
-            </div>
-            <div class="card">
-                <span><i class="fab fa-react"></i></span>
-                <h4>React</h4>
-                <p>
-                    Expert in leveraging React's component-based architecture to create seamless and dynamic web applications. I excel in utilizing state management, virtual DOM, and modern JavaScript to craft responsive, modular UIs that deliver exceptional user experiences.
-                </p>
-                
-            </div>
-            <div class="card">
-                <span><i class="fab fa-java"></i></span>
-                <h4>Java</h4>
-                <p>
-                    Working from enterprise-level solutions to Android app development, leveraging Java's versatility and strong ecosystem. I thrive on writing clean, efficient code, utilizing Java's object-oriented principles to build scalable and secure software solutions that power diverse industries and user experiences.
-                </p>
-                
-            </div>
-            <div class="card">
-                <span><i class="fas fa-server"></i></span>
-                <h4>Software Development</h4>
-                <p>
-                    Capable of analyzing requirements, designing scalable architectures, coding, testing, and deployment. I excel in utilizing various programming languages, frameworks, and methodologies to deliver innovative, reliable, and user-centric software solutions.
-                </p>
-                
             </div>
         </div>
     </section>
@@ -113,26 +106,26 @@
     <section id="Projects" class="container">
         <h2 class="header">Projects</h2>
         <p class="sub-header">
-            Some of the projects I have worked on or am currently working on.
+            Some of the robotics projects I have worked on or am currently working on.
         </p>
         <div class="pricing">
             <div class="card">
                 <div class="content">
-                    <h3>Ticket Printing System</h3>
-                    <h4>Windows Forms, C#</h4>
+                    <h3>Autonomous Line-Following Robot</h3>
+                    <h4>Arduino, C++</h4>
                     <button onclick="openInfoDialog('infoDialog1')" class="btn">More info</button>
                     <div id="infoDialog1" class="infoDialog">
                         <p>
                             <i class="ri-checkbox-circle-line"></i>
-                            Developed a Windows Forms application in C# for efficient customer ticket printing.
+                            Built an autonomous robot capable of following a track using infrared sensors and a closed-loop control algorithm.
                         </p>
                         <p>
                             <i class="ri-checkbox-circle-line"></i>
-                            Designed an intuitive user interface, integrated with a database for data management, and implemented a printing module.
+                            Tuned a PID controller to keep the robot centered on the line at varying speeds.
                         </p>
                         <p>
                             <i class="ri-checkbox-circle-line"></i>
-                            Streamlined ticket issuance, improving customer service and operational efficiency.
+                            Designed the chassis and wiring layout to keep the system compact and reliable.
                         </p>
                         <button onclick="closeInfoDialog('infoDialog1')" class="btn">Close</button>
                     </div>
@@ -140,21 +133,21 @@
             </div>
             <div class="card">
                 <div class="content">
-                    <h3>E-commerce Price Scraper</h3>
-                    <h4>Python, Django</h4>
+                    <h3>Robotic Arm Pick-and-Place</h3>
+                    <h4>ROS, Python</h4>
                     <button onclick="openInfoDialog('infoDialog2')" class="btn">More info</button>
                     <div id="infoDialog2" class="infoDialog">
                         <p>
                             <i class="ri-checkbox-circle-line"></i>
-                            Developed a Python-based Django web app for real-time e-commerce price monitoring.
+                            Programmed a robotic arm to identify, grasp, and relocate objects using a camera-based vision pipeline.
                         </p>
                         <p>
                             <i class="ri-checkbox-circle-line"></i>
-                            Utilized web scraping techniques to gather and display product data from multiple e-commerce websites.
+                            Integrated inverse kinematics to translate target coordinates into joint movements.
                         </p>
                         <p>
                             <i class="ri-checkbox-circle-line"></i>
-                            Provided users with automated price tracking and email notifications.
+                            Used ROS to coordinate perception, planning, and actuation nodes.
                         </p>
                         <button onclick="closeInfoDialog('infoDialog2')" class="btn">Close</button>
                     </div>
@@ -162,21 +155,21 @@
             </div>
             <div class="card">
                 <div class="content">
-                    <h3>Startup Web Page</h3>
-                    <h4>HTML,CSS,JS</h4>
+                    <h3>Obstacle-Avoiding Mobile Robot</h3>
+                    <h4>Raspberry Pi, Python</h4>
                     <button onclick="openInfoDialog('infoDialog3')" class="btn">More info</button>
                     <div id="infoDialog3" class="infoDialog">
                     <p>
                         <i class="ri-checkbox-circle-line"></i>
-                        Developed a website for a startup, initially focused on a simple and basic design but later incorporated advanced functionalities.
+                        Developed a mobile robot that navigates indoor spaces while avoiding obstacles using ultrasonic and infrared sensors.
                     </p>
                     <p>
                         <i class="ri-checkbox-circle-line"></i>
-                        Utilized HTML and CSS to create web pages, ensuring a cohesive and visually appealing design.
+                        Implemented real-time sensor fusion to improve obstacle detection reliability.
                     </p>
                     <p>
                         <i class="ri-checkbox-circle-line"></i>
-                        Enhanced the startup's online presence and reputation by expanding its reach through the website.
+                        Used a Raspberry Pi as the onboard computer running the navigation logic.
                     </p>
                     <button onclick="closeInfoDialog('infoDialog3')" class="btn">Close</button>
                     </div>
@@ -184,21 +177,21 @@
             </div>
             <div class="card">
                 <div class="content">
-                    <h3>Inventory Management</h3>
-                    <h4>Python, Excel</h4>
+                    <h3>Self-Balancing Robot</h3>
+                    <h4>C++, IMU, PID Control</h4>
                     <button onclick="openInfoDialog('infoDialog4')" class="btn">More info</button>
                     <div id="infoDialog4" class="infoDialog">
                     <p>
                         <i class="ri-checkbox-circle-line"></i>
-                        Designed and executed an Excel-based inventory management system for the business, encompassing tires, spare parts, and mechanical components.
+                        Built a two-wheeled self-balancing robot using an IMU for orientation sensing.
                     </p>
                     <p>
                         <i class="ri-checkbox-circle-line"></i>
-                        Transitioned the inventory management process from paper-based to an efficient online system, minimizing operational risks and streamlining the review process.
+                        Tuned a PID control loop to maintain upright balance under disturbances.
                     </p>
                     <p>
                         <i class="ri-checkbox-circle-line"></i>
-                        Implemented a Python script to analyze the inventory data, enabling the assessment of part usage, consumption trends, and important date-related information.
+                        Iterated on motor driver and sensor placement to reduce response latency.
                     </p>
                     <button onclick="closeInfoDialog('infoDialog4')" class="btn">Close</button>
                     </div>
@@ -206,21 +199,21 @@
             </div>
             <div class="card">
                 <div class="content">
-                    <h3>Data Structures and Algorithms Visualizer</h3>
-                    <h4>C++, Data Management</h4>
+                    <h3>Object Detection for Robot Vision</h3>
+                    <h4>Python, OpenCV</h4>
                     <button onclick="openInfoDialog('infoDialog5')" class="btn">More info</button>
                     <div id="infoDialog5" class="infoDialog">
                     <p>
                         <i class="ri-checkbox-circle-line"></i>
-                        Build a visual representation of common data structures (linked lists, trees, graphs) and algorithms (sorting, searching) to demonstrate how they work in real-time.
+                        Built a computer vision pipeline to detect and classify objects in a robot's field of view.
                     </p>
                     <p>
                         <i class="ri-checkbox-circle-line"></i>
-                        Demonstrate the inner workings of common data structures and algorithms in a visual and interactive manner.
+                        Used OpenCV for image preprocessing and a trained model for object classification.
                     </p>
                     <p>
                         <i class="ri-checkbox-circle-line"></i>
-                        Allows for a visually engaging way to comprehend complex concepts.
+                        Fed detection results into the robot's decision-making and navigation logic.
                     </p>
                     <button onclick="closeInfoDialog('infoDialog5')" class="btn">Close</button>
                     </div>
